@@ -1,0 +1,20 @@
+[project]
+name = "ollama-chat-terminal"
+version = "0.1.0"
+description = "Interfaz de terminal para chatear con un modelo de Ollama."
+readme = "README.md"
+requires-python = ">=3.10"
+
+# Las dependencias deben ir en una lista, así:
+dependencies = [
+    "ollama",
+    "rich"
+]
+
+[tool.uv]
+# Puedes ejecutar con:
+#   uv run python main.py --model gemma3
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
