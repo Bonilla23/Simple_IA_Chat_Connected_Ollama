@@ -34,4 +34,6 @@ pip install uv
 
 ## Para ejecutar la aplicación:
 
+```bash
 uv run python main.py --model gemma3
+```
